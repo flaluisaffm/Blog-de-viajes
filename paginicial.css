@@ -1,6 +1,13 @@
+/*Paleta de colores 
+🌲 Verde bosque	Títulos, acentos naturales	#2E8B57
+🌅 Arena cálida	Fondo principal o secciones	#F4E1B3
+☁️ Blanco suave	Fondo de texto	#FAFAFA
+🪨 Gris piedra	Tipografía secundaria	#4A4A4A
+🌊 Azul océano	Botones y enlaces	#0077B6 */
+
 body{
     margin: 0;
-    background-color: green;
+    background-color: #2E8B57;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
