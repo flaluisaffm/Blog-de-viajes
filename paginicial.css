@@ -1,9 +1,9 @@
 /*Paleta de colores 
-🌲 Verde bosque	Títulos, acentos naturales	#2E8B57
-🌅 Arena cálida	Fondo principal o secciones	#F4E1B3
-☁️ Blanco suave	Fondo de texto	#FAFAFA
-🪨 Gris piedra	Tipografía secundaria	#4A4A4A
-🌊 Azul océano	Botones y enlaces	#0077B6 */
+Verde bosque	Títulos, acentos naturales	#2E8B57
+Arena cálida	Fondo principal o secciones	#F4E1B3
+Blanco suave	Fondo de texto	#FAFAFA
+Gris piedra	Tipografía secundaria	#4A4A4A
+Azul océano	Botones y enlaces	#0077B6 */
 
 body{
     margin: 0;
@@ -50,7 +50,7 @@ h1{
 }
 .boton-ir {
   display: block;
-  background-color: #2E8B57; /* Azul océano */
+  background-color: #2E8B57; 
   color: #FAFAFA;
   padding: 12px 28px;
   border-radius: 30px;
@@ -72,15 +72,15 @@ h1{
     justify-content: center;
     align-content: center;
     background-color: #ffffff;
-    border-bottom: 2px solid #ccc; /* Borde superior gris */
+    border-bottom: 2px solid #ccc;
     position: fixed;      /* La mantiene visible aunque se haga scroll */
-    bottom: 15px;            /* Pegada a la parte inferior */
+    bottom: 15px;            
 }
 
 .texto{
     width: 75%;          /* Ocupa 75% de todo el ancho de la pag */
-    text-align: center;   /* Centra el texto */
-    color: #4A4A4A;       /* Gris piedra (tu color secundario) */
+    text-align: center;   
+    color: #4A4A4A;      
     font-size: 16px;
     line-height: 25px;
 }
