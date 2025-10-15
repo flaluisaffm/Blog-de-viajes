@@ -14,17 +14,19 @@ h1{
     color: #2E8B57;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin-top: 50px;
+    padding: 0px;
 }
 .contenedor-madre{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 75vh;
     margin: 0;
-    padding: 0;
+    padding-top: 50px;
 }
-.contenedor-logo{
+.contenedor-imagen{
     width:300px;
     height: 300px;
     border-radius: 180px;
@@ -32,12 +34,12 @@ h1{
     transition: transform 0.3s ease;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
-.contenedor-logo:hover{
+.contenedor-imagen:hover{
     transform: scale(1.2);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25); /* Más sombra */
     filter: brightness(1.1); /*Efecto de brillo */
 }
-.contenedor-logo img{
+.contenedor-imagen img{
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -71,10 +73,11 @@ h1{
     padding: 15px;
     justify-content: center;
     align-content: center;
-    background-color: #ffffff;
+    background-color: #ffffff99;
     border-bottom: 2px solid #ccc;
     position: fixed;      /* La mantiene visible aunque se haga scroll */
-    bottom: 15px;            
+    bottom: 15px;
+    padding: 15px;            
 }
 
 .texto{
@@ -82,5 +85,5 @@ h1{
     text-align: center;   
     color: #4A4A4A;      
     font-size: 16px;
-    line-height: 25px;
+    line-height: 22px;
 }
