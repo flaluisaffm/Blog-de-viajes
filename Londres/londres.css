@@ -1,0 +1,33 @@
+.contenedor-madre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 15px;
+  position: relative;
+}
+.elemento-hija {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  border-radius: 10%;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.elemento-hija:hover {
+  transform: scale(1.1);
+}
+.elemento-hija img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-style: italic;
+  background-color: white;
+  border-radius: 15%;
+}

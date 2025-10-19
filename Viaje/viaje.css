@@ -1,0 +1,151 @@
+.nav-menu {
+  list-style: none;
+  background-color: #adc9de;
+  margin: 10px;
+  padding: 0;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+.nav-menu li {
+  margin: 25px 50px;
+  padding: 0px;
+  transition: 0.55s;
+  border-radius: 10px;
+}
+.nav-menu li:hover {
+  background-color: #92b6d2;
+  font-size: 10px;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  transition: background-color 0.3s;
+  font-size: 17.2px;
+}
+.button-menu {
+  list-style: none;
+  display: flex;
+  gap: 4dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+.valencia {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(../Valencia/assets/cuidad\ de\ las\ artes.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25vh;
+  width: 25vh;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgb(33, 24, 24);
+}
+.valencia:hover {
+  transform: scale(1.045);
+}
+.valencia #link-valencia {
+  font-size: 4vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44vh;
+  text-decoration: none;
+}
+.belo {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(../Valencia/assets/belo-horizonte\ inicio.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25vh;
+  width: 25vh;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgb(33, 24, 24);
+}
+.belo:hover {
+  transform: scale(1.045);
+}
+.belo #link-belo {
+  font-size: 4vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44vh;
+  text-decoration: none;
+}
+.londres {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(../Valencia/assets/big-ben\ Londres.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25vh;
+  width: 25vh;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgb(33, 24, 24);
+}
+.londres:hover {
+  transform: scale(1.045);
+}
+.londres #link-londres {
+  font-size: 4vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44vh;
+  text-decoration: none;
+}
+/* Dark transparent background that covers the whole screen */
+.popup {
+  display: none; /* hide by default */
+  position: fixed; /* stays in place */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* The white box inside */
+.popup-content {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 300px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.popup-content p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.popup-content button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup-content button:hover {
+  background: #0056b3;
+}

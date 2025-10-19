@@ -1,0 +1,25 @@
+/*This will be the base for the style for Valencia, Londres and Belo Horizonte*/
+/*This way we don't need to rewrite the base things*/
+body {
+  background-color: #a1bcd1;
+  margin: 40px;
+  padding: 0;
+  background-color: #92b6d2;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+header {
+  background-color: #8fb0c9;
+  color: #1a1a1a;
+  padding: 0.002em 0; /*em --> it comes from the father container, in this case, body (by default 16 pixels) or rem (it does not com efrom the father container)forms of measuring */
+  text-align: center;
+  border-radius: 30px;
+}
+h1 {
+  font-size: 3em;
+  margin: 10px;
+  padding: 0;
+  background-color: #8fb0c9;
+}
